@@ -19,7 +19,7 @@ public class Calculator {
         if (scanner.hasNextInt()) {
             num = scanner.nextInt();
         } else {
-            System.out.println("You made a mistake when entering a number. try again.");
+            System.out.println("You made a mistake when entering a number. Try again.");
             scanner.next();
             num = getInt();
         }
@@ -32,7 +32,7 @@ public class Calculator {
         if (scanner.hasNext()) {
             operation = scanner.next().charAt(0);
         } else {
-            System.out.println("You made a mistake while entering the operation. try again.");
+            System.out.println("You made a mistake while entering the operation. Try again.");
             scanner.next();
             operation = getOperation();
         }
